@@ -23,11 +23,11 @@ import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestMethod;
 import org.springframework.web.bind.annotation.RestController;
 
+import com.savenotes.Mapper;
 import com.savenotes.model.Note;
 import com.savenotes.model.Notebook;
 import com.savenotes.repository.NoteRepository;
 import com.savenotes.repository.NotebookRepository;
-import com.savenotes.savenotes.Mapper;
 import com.savenotes.viewmodel.NoteViewModel;
 
 @RestController

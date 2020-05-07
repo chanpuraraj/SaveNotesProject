@@ -1,4 +1,4 @@
-package com.savenotes.savenotes;
+package com.savenotes;
 
 import org.springframework.boot.builder.SpringApplicationBuilder;
 import org.springframework.boot.web.servlet.support.SpringBootServletInitializer;

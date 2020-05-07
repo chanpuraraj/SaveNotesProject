@@ -1,4 +1,4 @@
-package com.savenotes.savenotes;
+package com.savenotes;
 
 import java.util.UUID;
 
