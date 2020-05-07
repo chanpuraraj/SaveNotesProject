@@ -32,5 +32,4 @@ public class FeedbackMailSender implements FeedbackSender {
 
 		this.mailSender.send(message);
 	}
-
 }
