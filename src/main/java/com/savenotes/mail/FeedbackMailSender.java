@@ -25,7 +25,7 @@ public class FeedbackMailSender implements FeedbackSender {
 	public void sendFeedback(String from, String name, String feedback) 
 	{
 		SimpleMailMessage message = new SimpleMailMessage();
-		message.setTo("raj.140410107004@gmail.com");
+		message.setTo("feedback@savenote.com");
 		message.setSubject("New feedback from : "+name);
 		message.setText(feedback);
 		message.setFrom(from);
