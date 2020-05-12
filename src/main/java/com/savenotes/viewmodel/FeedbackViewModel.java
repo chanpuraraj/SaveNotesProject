@@ -3,6 +3,7 @@ package com.savenotes.viewmodel;
 import javax.validation.constraints.Email;
 import javax.validation.constraints.Min;
 import javax.validation.constraints.NotNull;
+import javax.validation.constraints.Size;
 
 public class FeedbackViewModel 
 {
@@ -14,7 +15,7 @@ public class FeedbackViewModel
 	private String email;
 	
 	@NotNull
-	@Min(value=10, message="feedback should not be less than 10 character small")
+	@Size(min = 10, max = 200, message = "Feedback should not be smaller than 10 characters")
 	private String feedback;
 
 	public String getName() {

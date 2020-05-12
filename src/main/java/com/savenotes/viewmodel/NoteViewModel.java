@@ -1,10 +1,9 @@
 package com.savenotes.viewmodel;
 
 import java.util.Date;
-import com.fasterxml.jackson.annotation.JsonFormat;
 
-import javax.validation.constraints.Min;
 import javax.validation.constraints.NotNull;
+import javax.validation.constraints.Size;
 
 public class NoteViewModel
 {
@@ -12,7 +11,7 @@ public class NoteViewModel
 	private String id;
 	
 	@NotNull
-	@Min(value=3, message="Title should not be less than 3 character")
+	@Size(min = 3, message = "Title of note should be more than 3 character long")
 	private String title;
 	
 	@NotNull

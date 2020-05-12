@@ -23,7 +23,7 @@ import com.savenotes.viewmodel.NotebookViewModel;
 @Component
 public class Mapper 
 {
-	//@Autowired
+	@Autowired
 	private NotebookRepository notebookRepository;
 	
 	/*public Mapper(NotebookRepository notebookRepository)
@@ -48,9 +48,16 @@ public class Mapper
 		Notebook notebook = this.notebookRepository.
 				findById(UUID.fromString(noteViewModel.getNotebookId())).get();
 		
+		if(notebook !=null)
+		{
 		Note entity = new Note(noteViewModel.getId(), noteViewModel.getTitle(), 
 								noteViewModel.getText(),notebook);
+		
 		return entity;
+		}
+		else {
+			return null;
+		}
 	}
 	
 	
