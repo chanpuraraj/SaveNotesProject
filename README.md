@@ -22,7 +22,7 @@ To run this project in your machine, follow these steps:
 
 ![image1](src/main/resources/image/savenotes-1.PNG)
 
-*feedback form*
+***feedback form*** :
 ![image1](src/main/resources/image/savenotes-3.PNG)
 
 
