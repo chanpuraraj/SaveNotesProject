@@ -10,7 +10,7 @@ import com.savenotes.model.Notebook;
 
 
 @Component
-@ConditionalOnProperty(name="noteit.db.recreate", havingValue="true")
+@ConditionalOnProperty(name="noteit.db.recreate", havingValue="false")
 public class DbSeeder implements CommandLineRunner {
 	
 	@Autowired
