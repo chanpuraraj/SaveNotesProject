@@ -18,7 +18,7 @@ To run this project in your machine, follow these steps:
 5) open the terminal on the path pf this project and write "ng serve -o". That's it, our front-end starts here. Hit http://localhost:4200 in browser.
 
 
-![image1](/image/savenote-1.PNG)
+![image1](src/main/resources/image/savenotes-1.PNG)
 
 
 
